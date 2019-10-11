@@ -16,6 +16,6 @@ class Meal
     @@all
   end
   
-  def 
+  def customer=(customer)
 
 end
