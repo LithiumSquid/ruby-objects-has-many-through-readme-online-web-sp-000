@@ -17,5 +17,7 @@ class Meal
   end
   
   def customer=(customer)
+    @customer = customer
+    
 
 end
