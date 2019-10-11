@@ -15,9 +15,5 @@ class Meal
   def self.all
     @@all
   end
-  
-  def customer=(customer)
-    @customer = customer
-    customer.meals = self
 
 end
