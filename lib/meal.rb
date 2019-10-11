@@ -18,6 +18,6 @@ class Meal
   
   def customer=(customer)
     @customer = customer
-    
+    customer.meals = self
 
 end
